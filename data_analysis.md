@@ -1,21 +1,13 @@
----
-title: ""
-author: "André Campos <andreloc@gmaill.com>"
-date: "10/14/2017"
-output: 
-  html_document:
-    keep_md: yes
-    toc: yes
----
+# 
+André Campos <andreloc@gmaill.com>  
+10/14/2017  
 # Analysis of Impact of Storms and Severe Weather Changes on Economic and Public Health 
 ## Information obtained by exploring the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database
 
 By André Campos (andreloc@gmail.com)
 Date: 19-14-201
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ### Introduction 
 
@@ -36,9 +28,9 @@ for preparing for severe weather events.
 
 ### Data 
 
-The NOAA database is a compressed CSV file. The data was downloaded in the folloing 
-link [Sorm Data][1]. There is also some documentation of the database available 
-on the [Storm Data Documentation][2] and a serie of [Frequent Answered Questions][3]. 
+The NOAA database is a compressed CSV file. The data was downloaded in the folloing link [Sorm Data][1]. 
+There is also some documentation of the database available on the [Storm Data Documentation][2] and 
+a serie of [Frequent Answered Questions][3]. 
 
 The events in the database start in the year 1950 and end in November 2011. In the earlier 
 years of the database there are generally fewer events recorded, most likely due to a lack 
@@ -54,4 +46,5 @@ of good records. More recent years should be considered more complete.
 [1]: https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2
 [2]: https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf
 [3]: https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf
+
 

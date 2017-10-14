@@ -1,17 +1,19 @@
 {
     "collab_server" : "",
-    "contents" : "---\ntitle: \"\"\nauthor: \"André Campos <andreloc@gmaill.com>\"\ndate: \"10/14/2017\"\noutput: html_document\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n## \n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n```{r cars}\nsummary(cars)\n```\n\n## Including Plots\n\nYou can also embed plots, for example:\n\n```{r pressure, echo=FALSE}\nplot(pressure)\n```\n\nNote that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.\n",
+    "contents" : "---\ntitle: \"\"\nauthor: \"André Campos <andreloc@gmaill.com>\"\ndate: \"10/14/2017\"\noutput: \n  html_document:\n    keep_md: yes\n    toc: yes\n---\n# Analysis of Impact of Storms and Severe Weather Changes on Economic and Public Health \n## Information obtained by exploring the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database\n\nBy André Campos (andreloc@gmail.com)\nDate: 19-14-201\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n### Introduction \n\nStorms and other severe weather events can cause both public health and economic \nproblems for communities and municipalities. Many severe events can result in \nfatalities, injuries, and property damage, and preventing such outcomes to the \nextent possible is a key concern.\n\n### Study Goal \n\nThe basic goal is to explore the NOAA Storm Database and answer the following questions: \n\n1. Across the United States, which types of events are most harmful with respect to population health?\n2. Across the United States, which types of events have the greatest economic consequences?\n\nThis report is intended for government or municipal manager who might be responsible \nfor preparing for severe weather events. \n\n### Data \n\nThe NOAA database is a compressed CSV file. The data was downloaded in the folloing \nlink [Sorm Data][1]. There is also some documentation of the database available \non the [Storm Data Documentation][2] and a serie of [Frequent Answered Questions][3]. \n\nThe events in the database start in the year 1950 and end in November 2011. In the earlier \nyears of the database there are generally fewer events recorded, most likely due to a lack \nof good records. More recent years should be considered more complete.\n\n\n### Important Links\n\n- [NOAA Database][1]\n- [National Weather Service Storm Data Documentation][2]\n- [NOAA Database FAQ][3]\n\n[1]: https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2\n[2]: https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf\n[3]: https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf\n\n",
     "created" : 1507992325384.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4077697185",
+    "hash" : "1179099990",
     "id" : "EE0934D2",
-    "lastKnownWriteTime" : 1507992668,
-    "last_content_update" : 1507992668741,
+    "lastKnownWriteTime" : 1508004598,
+    "last_content_update" : 1508004598562,
     "path" : "~/Documents/estudos/R/workspace/Reproducible_Research_Course_Project/data_analysis.Rmd",
     "project_path" : "data_analysis.Rmd",
     "properties" : {
+        "docOutlineSize" : "356.52191970882285",
+        "docOutlineVisible" : "0",
         "tempName" : "Untitled1"
     },
     "relative_order" : 1,
