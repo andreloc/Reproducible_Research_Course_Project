@@ -290,7 +290,7 @@ property.plot <- ggplot(data=head(finantial.impact.by.property,10),
 
 ## Results 
 
-The suscint result of this analysis is presented in this section. 
+The final result of the analysis is presented in the following sections. 
 
 ### Health Impact 
 
@@ -304,9 +304,9 @@ The top cause of **fatalities** in USA according to NOAA is
 grid.arrange(injuries.plot, fatalities.plot, ncol = 2)
 ```
 
-![](data_analysis_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![](README_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
 
-#### Finantial Impact 
+### Finantial Impact 
 The highest finantial impact was caused by FLOOD. 
 The finantial impact can be subdivided into Crop and Property impacts, which are detailed below. 
 
@@ -315,7 +315,7 @@ The finantial impact can be subdivided into Crop and Property impacts, which are
 grid.arrange(crop.plot, property.plot, ncol = 2)
 ```
 
-![](data_analysis_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![](README_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
 
 The main total impact is presented in the graph below. 
 
@@ -323,7 +323,7 @@ The main total impact is presented in the graph below.
 plot(finantial.plot)
 ```
 
-![](data_analysis_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![](README_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
 ## Important Links
 

@@ -262,7 +262,7 @@ The main total impact is presented in the graph below.
 plot(finantial.plot)
 ```
 
-## Important Links
+## References
 
 - [NOAA Database][1]
 - [National Weather Service Storm Data Documentation][2]
