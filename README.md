@@ -325,7 +325,7 @@ plot(finantial.plot)
 
 ![](README_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
 
-## Important Links
+## References
 
 - [NOAA Database][1]
 - [National Weather Service Storm Data Documentation][2]
