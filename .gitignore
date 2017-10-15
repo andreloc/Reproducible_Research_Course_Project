@@ -23,6 +23,6 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 packrat/lib*/
-.Rproj.user
+.Rproj.user/
 storm_data.csv.bz2
 .DS_Store
