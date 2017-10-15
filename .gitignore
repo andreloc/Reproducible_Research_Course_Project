@@ -26,3 +26,4 @@ packrat/lib*/
 .Rproj.user/
 storm_data.csv.bz2
 .DS_Store
+.Rproj.user

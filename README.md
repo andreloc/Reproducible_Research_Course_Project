@@ -1,11 +1,6 @@
-# Analysis of Impact of Storms and Severe Weather Changes on Economic and Public Health
+# Impact of Storms and Severe Weather Changes on Economic and Public Health
 André Campos <andreloc@gmaill.com>  
 10/14/2017  
-
-## Basic Information and Setup
-
-Information obtained by exploring the U.S. National Oceanic and Atmospheric 
-Administration's (NOAA) storm database
 
 By André Campos (andreloc@gmail.com)
 Date: 19-14-201
@@ -16,7 +11,8 @@ Storms and other severe weather events can cause both public health and economic
 problems for communities and municipalities. Many severe events can result in 
 fatalities, injuries, and property damage, and preventing such outcomes to the 
 extent possible is a key concern. This study will describe the impact of such weather 
-conditions on U.S health and economics. 
+conditions on U.S health and economics. The study is based on the National 
+Oceanic and Atmospheric Administration's (NOAA) storm database. 
 
 ### Study Goal 
 
